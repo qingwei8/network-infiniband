@@ -1,0 +1,10 @@
+<IP>127.0.0.1</IP>
+
+<NODE>
+  TCP
+  <PROTOCAL> TCP </PROTOCAL>
+  <SOCKET>
+    LWQ
+    <PORT>8000</PORT>
+  </SOCKET>
+</NODE>

@@ -1,0 +1,2169 @@
+
+
+/*************************************************************************************************************/
+/*****************************Application starts at [Sat Oct 17 14:21:02.448 2015]****************************/
+
+[Sat Oct 17 14:21:02.448 2015] :
+  Network logical node [UDP] has been created and registered.
+
+[Sat Oct 17 14:21:02.448 2015] :
+  Network logical node [IB] has been created and registered.
+
+[Sat Oct 17 14:21:02.449 2015] :
+  The network logical node [UDP] has been initialized.
+
+[Sat Oct 17 14:21:02.455 2015] :
+  Thread [CUDPDataSendingThread] has been started.
+
+[Sat Oct 17 14:21:02.456 2015] :
+  Thread [CIPBasedDataHandlingThread] has been started.
+
+[Sat Oct 17 14:21:02.456 2015] :
+  Thread [CUDPReceivedRawFragmentHandlingThread] has been started.
+
+[Sat Oct 17 14:21:02.458 2015] :
+  Thread [CUDPDataReceivingThread] has been started.
+
+[Sat Oct 17 14:21:02.458 2015] :
+  The network node [UDP] has been started.
+
+[Sat Oct 17 14:21:02.516 2015] :
+  Total number of channel adapter in the system: 1.
+
+[Sat Oct 17 14:21:02.521 2015] :
+  Infiniband channel adapter attributes
+  Maximum number of queue pairs:                  2064320.
+  Maximum number of work requests:                16351.
+  Maximum number of completion queues:            65408.
+  Maximum number of elements in completion queue: 4194303.
+  Maximum number of protection domains:           32764.
+  Number of ports:                                1.
+  Maximum Number of scatter gather elements:      32.
+
+[Sat Oct 17 14:21:02.522 2015] :
+  Succeed to open the Infiniband adapter.
+
+[Sat Oct 17 14:21:02.529 2015] :
+  Queue pair [2835349504] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:02.537 2015] :
+  Queue pair [2852126720] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:02.542 2015] :
+  Queue pair [2868903936] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:02.547 2015] :
+  Queue pair [2885681152] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:02.552 2015] :
+  Queue pair [2902458368] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:02.556 2015] :
+  Queue pair [2919235584] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:02.561 2015] :
+  Queue pair [2936012800] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:02.566 2015] :
+  Queue pair [2952790016] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:02.566 2015] :
+  Wait inbound connections and response from other end...
+
+[Sat Oct 17 14:21:02.567 2015] :
+  A connection request packet has been sent to [11.4.12.62:9999].
+
+[Sat Oct 17 14:21:03.571 2015] :
+  A connection request packet has been sent to [11.4.12.62:9999].
+
+[Sat Oct 17 14:21:04.574 2015] :
+  A connection request packet has been sent to [11.4.12.62:9999].
+
+[Sat Oct 17 14:21:05.577 2015] :
+  A connection request packet has been sent to [11.4.12.62:9999].
+
+[Sat Oct 17 14:21:06.580 2015] :
+  A connection request packet has been sent to [11.4.12.62:9999].
+
+[Sat Oct 17 14:21:07.583 2015] :
+  A connection request packet has been sent to [11.4.12.62:9999].
+
+[Sat Oct 17 14:21:07.721 2015] :
+  Receive a IB connection Ack packet from [11.4.12.62].
+
+[Sat Oct 17 14:21:07.735 2015] :
+  Queue pair [2835349504] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:07.737 2015] :
+  Queue pair [2835349504] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:07.739 2015] :
+  Queue pair [2852126720] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:07.741 2015] :
+  Queue pair [2852126720] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:07.743 2015] :
+  Queue pair [2868903936] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:07.745 2015] :
+  Queue pair [2868903936] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:07.748 2015] :
+  Queue pair [2885681152] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:07.750 2015] :
+  Queue pair [2885681152] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:07.752 2015] :
+  Queue pair [2902458368] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:07.754 2015] :
+  Queue pair [2902458368] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:07.756 2015] :
+  Queue pair [2919235584] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:07.758 2015] :
+  Queue pair [2919235584] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:07.760 2015] :
+  Queue pair [2936012800] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:07.762 2015] :
+  Queue pair [2936012800] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:07.764 2015] :
+  Queue pair [2952790016] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:07.765 2015] :
+  Queue pair [2952790016] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:21:07.765 2015] :
+  An Infiniband connection to [11.4.12.62] has been built successfully.
+
+[Sat Oct 17 14:21:07.785 2015] :
+  Succeed to create and register a memory block [40960 KB] to protection domain.
+
+[Sat Oct 17 14:21:07.785 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:21:07.786 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:21:07.787 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:21:07.787 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:21:07.788 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:21:07.789 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:21:07.789 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:21:07.790 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:21:07.791 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:21:07.792 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:21:07.792 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:21:07.793 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:21:07.793 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:21:07.794 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:21:07.794 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:21:07.795 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:21:08.584 2015] :
+  The network logical node [IB] has been initialized.
+
+[Sat Oct 17 14:21:08.585 2015] :
+  Success to initialize the physical network node!
+
+[Sat Oct 17 14:21:14.955 2015] :
+  The network node [IB] has been started.
+
+
+
+/*************************************************************************************************************/
+/*****************************Application starts at [Sat Oct 17 14:22:19.746 2015]****************************/
+
+[Sat Oct 17 14:22:19.746 2015] :
+  Network logical node [UDP] has been created and registered.
+
+[Sat Oct 17 14:22:19.746 2015] :
+  Network logical node [IB] has been created and registered.
+
+[Sat Oct 17 14:22:19.746 2015] :
+  The network logical node [UDP] has been initialized.
+
+[Sat Oct 17 14:22:19.752 2015] :
+  Thread [CUDPDataSendingThread] has been started.
+
+[Sat Oct 17 14:22:19.753 2015] :
+  Thread [CIPBasedDataHandlingThread] has been started.
+
+[Sat Oct 17 14:22:19.753 2015] :
+  Thread [CUDPReceivedRawFragmentHandlingThread] has been started.
+
+[Sat Oct 17 14:22:19.755 2015] :
+  Thread [CUDPDataReceivingThread] has been started.
+
+[Sat Oct 17 14:22:19.755 2015] :
+  The network node [UDP] has been started.
+
+[Sat Oct 17 14:22:19.815 2015] :
+  Total number of channel adapter in the system: 1.
+
+[Sat Oct 17 14:22:19.819 2015] :
+  Infiniband channel adapter attributes
+  Maximum number of queue pairs:                  2064320.
+  Maximum number of work requests:                16351.
+  Maximum number of completion queues:            65408.
+  Maximum number of elements in completion queue: 4194303.
+  Maximum number of protection domains:           32764.
+  Number of ports:                                1.
+  Maximum Number of scatter gather elements:      32.
+
+[Sat Oct 17 14:22:19.820 2015] :
+  Succeed to open the Infiniband adapter.
+
+[Sat Oct 17 14:22:19.827 2015] :
+  Queue pair [2969567232] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:19.835 2015] :
+  Queue pair [2986344448] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:19.842 2015] :
+  Queue pair [3003121664] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:19.849 2015] :
+  Queue pair [3019898880] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:19.855 2015] :
+  Queue pair [3036676096] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:19.861 2015] :
+  Queue pair [3053453312] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:19.866 2015] :
+  Queue pair [3070230528] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:19.872 2015] :
+  Queue pair [3087007744] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:19.872 2015] :
+  Wait inbound connections and response from other end...
+
+[Sat Oct 17 14:22:19.874 2015] :
+  A connection request packet has been sent to [11.4.12.62:9999].
+
+[Sat Oct 17 14:22:20.17 2015] :
+  Receive a IB connection Ack packet from [11.4.12.62].
+
+[Sat Oct 17 14:22:20.35 2015] :
+  Queue pair [2969567232] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:20.38 2015] :
+  Queue pair [2969567232] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:20.42 2015] :
+  Queue pair [2986344448] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:20.46 2015] :
+  Queue pair [2986344448] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:20.50 2015] :
+  Queue pair [3003121664] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:20.53 2015] :
+  Queue pair [3003121664] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:20.57 2015] :
+  Queue pair [3019898880] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:20.61 2015] :
+  Queue pair [3019898880] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:20.65 2015] :
+  Queue pair [3036676096] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:20.69 2015] :
+  Queue pair [3036676096] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:20.72 2015] :
+  Queue pair [3053453312] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:20.76 2015] :
+  Queue pair [3053453312] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:20.80 2015] :
+  Queue pair [3070230528] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:20.83 2015] :
+  Queue pair [3070230528] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:20.87 2015] :
+  Queue pair [3087007744] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:20.91 2015] :
+  Queue pair [3087007744] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:22:20.92 2015] :
+  An Infiniband connection to [11.4.12.62] has been built successfully.
+
+[Sat Oct 17 14:22:20.114 2015] :
+  Succeed to create and register a memory block [40960 KB] to protection domain.
+
+[Sat Oct 17 14:22:20.115 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:22:20.116 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:22:20.117 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:22:20.117 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:22:20.118 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:22:20.119 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:22:20.120 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:22:20.121 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:22:20.122 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:22:20.123 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:22:20.123 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:22:20.124 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:22:20.124 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:22:20.125 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:22:20.125 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:22:20.125 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:22:20.875 2015] :
+  The network logical node [IB] has been initialized.
+
+[Sat Oct 17 14:22:20.876 2015] :
+  Success to initialize the physical network node!
+
+[Sat Oct 17 14:22:21.900 2015] :
+  The network node [IB] has been started.
+
+
+
+/*************************************************************************************************************/
+/*****************************Application starts at [Sat Oct 17 14:23:35.745 2015]****************************/
+
+[Sat Oct 17 14:23:35.745 2015] :
+  Network logical node [UDP] has been created and registered.
+
+[Sat Oct 17 14:23:35.745 2015] :
+  Network logical node [IB] has been created and registered.
+
+[Sat Oct 17 14:23:35.746 2015] :
+  The network logical node [UDP] has been initialized.
+
+[Sat Oct 17 14:23:35.752 2015] :
+  Thread [CUDPDataSendingThread] has been started.
+
+[Sat Oct 17 14:23:35.752 2015] :
+  Thread [CIPBasedDataHandlingThread] has been started.
+
+[Sat Oct 17 14:23:35.753 2015] :
+  Thread [CUDPReceivedRawFragmentHandlingThread] has been started.
+
+[Sat Oct 17 14:23:35.754 2015] :
+  Thread [CUDPDataReceivingThread] has been started.
+
+[Sat Oct 17 14:23:35.754 2015] :
+  The network node [UDP] has been started.
+
+[Sat Oct 17 14:23:35.815 2015] :
+  Total number of channel adapter in the system: 1.
+
+[Sat Oct 17 14:23:35.820 2015] :
+  Infiniband channel adapter attributes
+  Maximum number of queue pairs:                  2064320.
+  Maximum number of work requests:                16351.
+  Maximum number of completion queues:            65408.
+  Maximum number of elements in completion queue: 4194303.
+  Maximum number of protection domains:           32764.
+  Number of ports:                                1.
+  Maximum Number of scatter gather elements:      32.
+
+[Sat Oct 17 14:23:35.821 2015] :
+  Succeed to open the Infiniband adapter.
+
+[Sat Oct 17 14:23:35.828 2015] :
+  Queue pair [3103784960] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:35.836 2015] :
+  Queue pair [3120562176] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:35.842 2015] :
+  Queue pair [3137339392] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:35.847 2015] :
+  Queue pair [3154116608] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:35.852 2015] :
+  Queue pair [3170893824] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:35.857 2015] :
+  Queue pair [3187671040] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:35.862 2015] :
+  Queue pair [3204448256] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:35.867 2015] :
+  Queue pair [3221225472] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:35.868 2015] :
+  Wait inbound connections and response from other end...
+
+[Sat Oct 17 14:23:35.869 2015] :
+  A connection request packet has been sent to [11.4.12.62:9999].
+
+[Sat Oct 17 14:23:36.10 2015] :
+  Receive a IB connection Ack packet from [11.4.12.62].
+
+[Sat Oct 17 14:23:36.20 2015] :
+  Queue pair [3103784960] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:36.21 2015] :
+  Queue pair [3103784960] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:36.22 2015] :
+  Queue pair [3120562176] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:36.23 2015] :
+  Queue pair [3120562176] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:36.24 2015] :
+  Queue pair [3137339392] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:36.25 2015] :
+  Queue pair [3137339392] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:36.26 2015] :
+  Queue pair [3154116608] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:36.27 2015] :
+  Queue pair [3154116608] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:36.28 2015] :
+  Queue pair [3170893824] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:36.29 2015] :
+  Queue pair [3170893824] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:36.30 2015] :
+  Queue pair [3187671040] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:36.31 2015] :
+  Queue pair [3187671040] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:36.32 2015] :
+  Queue pair [3204448256] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:36.33 2015] :
+  Queue pair [3204448256] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:36.34 2015] :
+  Queue pair [3221225472] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:36.35 2015] :
+  Queue pair [3221225472] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:23:36.35 2015] :
+  An Infiniband connection to [11.4.12.62] has been built successfully.
+
+[Sat Oct 17 14:23:36.51 2015] :
+  Succeed to create and register a memory block [40960 KB] to protection domain.
+
+[Sat Oct 17 14:23:36.51 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:23:36.52 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:23:36.52 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:23:36.53 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:23:36.53 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:23:36.54 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:23:36.54 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:23:36.55 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:23:36.56 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:23:36.56 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:23:36.57 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:23:36.57 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:23:36.58 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:23:36.58 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:23:36.58 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:23:36.59 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:23:36.870 2015] :
+  The network logical node [IB] has been initialized.
+
+[Sat Oct 17 14:23:36.871 2015] :
+  Success to initialize the physical network node!
+
+[Sat Oct 17 14:23:38.442 2015] :
+  The network node [IB] has been started.
+
+
+
+/*************************************************************************************************************/
+/*****************************Application starts at [Sat Oct 17 14:27:20.660 2015]****************************/
+
+[Sat Oct 17 14:27:20.660 2015] :
+  Network logical node [UDP] has been created and registered.
+
+[Sat Oct 17 14:27:20.661 2015] :
+  Network logical node [IB] has been created and registered.
+
+[Sat Oct 17 14:27:20.661 2015] :
+  The network logical node [UDP] has been initialized.
+
+[Sat Oct 17 14:27:20.667 2015] :
+  Thread [CUDPDataSendingThread] has been started.
+
+[Sat Oct 17 14:27:20.667 2015] :
+  Thread [CIPBasedDataHandlingThread] has been started.
+
+[Sat Oct 17 14:27:20.668 2015] :
+  Thread [CUDPReceivedRawFragmentHandlingThread] has been started.
+
+[Sat Oct 17 14:27:20.669 2015] :
+  Thread [CUDPDataReceivingThread] has been started.
+
+[Sat Oct 17 14:27:20.669 2015] :
+  The network node [UDP] has been started.
+
+[Sat Oct 17 14:27:20.727 2015] :
+  Total number of channel adapter in the system: 1.
+
+[Sat Oct 17 14:27:20.732 2015] :
+  Infiniband channel adapter attributes
+  Maximum number of queue pairs:                  2064320.
+  Maximum number of work requests:                16351.
+  Maximum number of completion queues:            65408.
+  Maximum number of elements in completion queue: 4194303.
+  Maximum number of protection domains:           32764.
+  Number of ports:                                1.
+  Maximum Number of scatter gather elements:      32.
+
+[Sat Oct 17 14:27:20.732 2015] :
+  Succeed to open the Infiniband adapter.
+
+[Sat Oct 17 14:27:20.740 2015] :
+  Queue pair [3238002688] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.748 2015] :
+  Queue pair [3254779904] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.755 2015] :
+  Queue pair [3271557120] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.762 2015] :
+  Queue pair [3288334336] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.769 2015] :
+  Queue pair [3305111552] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.776 2015] :
+  Queue pair [3321888768] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.783 2015] :
+  Queue pair [3338665984] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.787 2015] :
+  Queue pair [3355443200] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.788 2015] :
+  Wait inbound connections and response from other end...
+
+[Sat Oct 17 14:27:20.789 2015] :
+  A connection request packet has been sent to [11.4.12.62:9999].
+
+[Sat Oct 17 14:27:20.923 2015] :
+  Receive a IB connection Ack packet from [11.4.12.62].
+
+[Sat Oct 17 14:27:20.940 2015] :
+  Queue pair [3238002688] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.944 2015] :
+  Queue pair [3238002688] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.948 2015] :
+  Queue pair [3254779904] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.952 2015] :
+  Queue pair [3254779904] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.955 2015] :
+  Queue pair [3271557120] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.959 2015] :
+  Queue pair [3271557120] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.962 2015] :
+  Queue pair [3288334336] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.964 2015] :
+  Queue pair [3288334336] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.966 2015] :
+  Queue pair [3305111552] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.967 2015] :
+  Queue pair [3305111552] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.969 2015] :
+  Queue pair [3321888768] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.971 2015] :
+  Queue pair [3321888768] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.973 2015] :
+  Queue pair [3338665984] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.974 2015] :
+  Queue pair [3338665984] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.976 2015] :
+  Queue pair [3355443200] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.978 2015] :
+  Queue pair [3355443200] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:27:20.978 2015] :
+  An Infiniband connection to [11.4.12.62] has been built successfully.
+
+[Sat Oct 17 14:27:21.0 2015] :
+  Succeed to create and register a memory block [40960 KB] to protection domain.
+
+[Sat Oct 17 14:27:21.0 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:27:21.1 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:27:21.1 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:27:21.2 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:27:21.3 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:27:21.3 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:27:21.4 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:27:21.5 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:27:21.5 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:27:21.6 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:27:21.6 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:27:21.7 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:27:21.7 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:27:21.8 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:27:21.8 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:27:21.9 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:27:21.790 2015] :
+  The network logical node [IB] has been initialized.
+
+[Sat Oct 17 14:27:21.791 2015] :
+  Success to initialize the physical network node!
+
+[Sat Oct 17 14:27:23.12 2015] :
+  The network node [IB] has been started.
+
+
+
+/*************************************************************************************************************/
+/*****************************Application starts at [Sat Oct 17 14:28:34.363 2015]****************************/
+
+[Sat Oct 17 14:28:34.363 2015] :
+  Network logical node [UDP] has been created and registered.
+
+[Sat Oct 17 14:28:34.363 2015] :
+  Network logical node [IB] has been created and registered.
+
+[Sat Oct 17 14:28:34.363 2015] :
+  The network logical node [UDP] has been initialized.
+
+[Sat Oct 17 14:28:34.363 2015] :
+  Thread [CUDPDataSendingThread] has been started.
+
+[Sat Oct 17 14:28:34.363 2015] :
+  Thread [CIPBasedDataHandlingThread] has been started.
+
+[Sat Oct 17 14:28:34.363 2015] :
+  Thread [CUDPReceivedRawFragmentHandlingThread] has been started.
+
+[Sat Oct 17 14:28:34.363 2015] :
+  Thread [CUDPDataReceivingThread] has been started.
+
+[Sat Oct 17 14:28:34.363 2015] :
+  The network node [UDP] has been started.
+
+[Sat Oct 17 14:28:34.441 2015] :
+  Total number of channel adapter in the system: 1.
+
+[Sat Oct 17 14:28:34.441 2015] :
+  Infiniband channel adapter attributes
+  Maximum number of queue pairs:                  2064320.
+  Maximum number of work requests:                16351.
+  Maximum number of completion queues:            65408.
+  Maximum number of elements in completion queue: 4194303.
+  Maximum number of protection domains:           32764.
+  Number of ports:                                1.
+  Maximum Number of scatter gather elements:      32.
+
+[Sat Oct 17 14:28:34.441 2015] :
+  Succeed to open the Infiniband adapter.
+
+[Sat Oct 17 14:28:34.441 2015] :
+  Queue pair [3372220416] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:34.456 2015] :
+  Queue pair [3388997632] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:34.456 2015] :
+  Queue pair [3405774848] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:34.472 2015] :
+  Queue pair [3422552064] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:34.472 2015] :
+  Queue pair [3439329280] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:34.472 2015] :
+  Queue pair [3456106496] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:34.472 2015] :
+  Queue pair [3472883712] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:34.488 2015] :
+  Queue pair [3489660928] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:34.488 2015] :
+  Wait inbound connections and response from other end...
+
+[Sat Oct 17 14:28:34.488 2015] :
+  A connection request packet has been sent to [11.4.12.62:9999].
+
+[Sat Oct 17 14:28:35.502 2015] :
+  A connection request packet has been sent to [11.4.12.62:9999].
+
+[Sat Oct 17 14:28:36.516 2015] :
+  A connection request packet has been sent to [11.4.12.62:9999].
+
+[Sat Oct 17 14:28:37.530 2015] :
+  A connection request packet has been sent to [11.4.12.62:9999].
+
+[Sat Oct 17 14:28:37.655 2015] :
+  Receive a IB connection Ack packet from [11.4.12.62].
+
+[Sat Oct 17 14:28:37.686 2015] :
+  Queue pair [3372220416] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:37.686 2015] :
+  Queue pair [3372220416] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:37.686 2015] :
+  Queue pair [3388997632] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:37.686 2015] :
+  Queue pair [3388997632] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:37.701 2015] :
+  Queue pair [3405774848] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:37.701 2015] :
+  Queue pair [3405774848] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:37.701 2015] :
+  Queue pair [3422552064] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:37.701 2015] :
+  Queue pair [3422552064] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:37.701 2015] :
+  Queue pair [3439329280] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:37.701 2015] :
+  Queue pair [3439329280] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:37.701 2015] :
+  Queue pair [3456106496] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:37.701 2015] :
+  Queue pair [3456106496] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:37.701 2015] :
+  Queue pair [3472883712] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:37.717 2015] :
+  Queue pair [3472883712] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:37.717 2015] :
+  Queue pair [3489660928] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:37.717 2015] :
+  Queue pair [3489660928] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:28:37.717 2015] :
+  An Infiniband connection to [11.4.12.62] has been built successfully.
+
+[Sat Oct 17 14:28:37.733 2015] :
+  Succeed to create and register a memory block [40960 KB] to protection domain.
+
+[Sat Oct 17 14:28:37.748 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:28:37.748 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:28:37.748 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:28:37.748 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:28:37.748 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:28:37.748 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:28:37.748 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:28:37.748 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:28:37.748 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:28:37.748 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:28:37.748 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:28:37.748 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:28:37.748 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:28:37.748 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:28:37.748 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:28:37.748 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:28:38.544 2015] :
+  The network logical node [IB] has been initialized.
+
+[Sat Oct 17 14:28:38.544 2015] :
+  Success to initialize the physical network node!
+
+[Sat Oct 17 14:28:41.991 2015] :
+  The network node [IB] has been started.
+
+
+
+/*************************************************************************************************************/
+/*****************************Application starts at [Sat Oct 17 14:29:29.244 2015]****************************/
+
+[Sat Oct 17 14:29:29.244 2015] :
+  Network logical node [UDP] has been created and registered.
+
+[Sat Oct 17 14:29:29.244 2015] :
+  Network logical node [IB] has been created and registered.
+
+[Sat Oct 17 14:29:29.244 2015] :
+  The network logical node [UDP] has been initialized.
+
+[Sat Oct 17 14:29:29.244 2015] :
+  Thread [CUDPDataSendingThread] has been started.
+
+[Sat Oct 17 14:29:29.244 2015] :
+  Thread [CIPBasedDataHandlingThread] has been started.
+
+[Sat Oct 17 14:29:29.244 2015] :
+  Thread [CUDPReceivedRawFragmentHandlingThread] has been started.
+
+[Sat Oct 17 14:29:29.244 2015] :
+  Thread [CUDPDataReceivingThread] has been started.
+
+[Sat Oct 17 14:29:29.244 2015] :
+  The network node [UDP] has been started.
+
+[Sat Oct 17 14:29:29.322 2015] :
+  Total number of channel adapter in the system: 1.
+
+[Sat Oct 17 14:29:29.322 2015] :
+  Infiniband channel adapter attributes
+  Maximum number of queue pairs:                  2064320.
+  Maximum number of work requests:                16351.
+  Maximum number of completion queues:            65408.
+  Maximum number of elements in completion queue: 4194303.
+  Maximum number of protection domains:           32764.
+  Number of ports:                                1.
+  Maximum Number of scatter gather elements:      32.
+
+[Sat Oct 17 14:29:29.322 2015] :
+  Succeed to open the Infiniband adapter.
+
+[Sat Oct 17 14:29:29.322 2015] :
+  Queue pair [3506438144] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.337 2015] :
+  Queue pair [3523215360] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.337 2015] :
+  Queue pair [3539992576] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.337 2015] :
+  Queue pair [3556769792] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.337 2015] :
+  Queue pair [3573547008] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.353 2015] :
+  Queue pair [3590324224] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.353 2015] :
+  Queue pair [3607101440] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.353 2015] :
+  Queue pair [3623878656] attributes
+  Current state: INIT.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.353 2015] :
+  Wait inbound connections and response from other end...
+
+[Sat Oct 17 14:29:29.353 2015] :
+  A connection request packet has been sent to [11.4.12.62:9999].
+
+[Sat Oct 17 14:29:29.509 2015] :
+  Receive a IB connection Ack packet from [11.4.12.62].
+
+[Sat Oct 17 14:29:29.525 2015] :
+  Queue pair [3506438144] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.525 2015] :
+  Queue pair [3506438144] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.525 2015] :
+  Queue pair [3523215360] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.540 2015] :
+  Queue pair [3523215360] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.540 2015] :
+  Queue pair [3539992576] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.540 2015] :
+  Queue pair [3539992576] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.540 2015] :
+  Queue pair [3556769792] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.556 2015] :
+  Queue pair [3556769792] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.556 2015] :
+  Queue pair [3573547008] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.556 2015] :
+  Queue pair [3573547008] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.556 2015] :
+  Queue pair [3590324224] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.556 2015] :
+  Queue pair [3590324224] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.571 2015] :
+  Queue pair [3607101440] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.571 2015] :
+  Queue pair [3607101440] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.571 2015] :
+  Queue pair [3623878656] attributes
+  Current state: Ready to Recv.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.571 2015] :
+  Queue pair [3623878656] attributes
+  Current state: Ready to Send.
+  Send queue size:    1019.
+  Recv queue size: 512.
+  Maximum number of scatter-gather elements in send queue:    30.
+  Maximum number of scatter-gather elements in receive queue: 16.
+  Packet Sequence Number of send queue:    0.
+  Packet Sequence Number of receive queue: 0.
+
+[Sat Oct 17 14:29:29.571 2015] :
+  An Infiniband connection to [11.4.12.62] has been built successfully.
+
+[Sat Oct 17 14:29:29.603 2015] :
+  Succeed to create and register a memory block [40960 KB] to protection domain.
+
+[Sat Oct 17 14:29:29.603 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:29:29.603 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:29:29.603 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:29:29.603 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:29:29.603 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:29:29.603 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:29:29.603 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:29:29.603 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:29:29.603 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:29:29.603 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:29:29.603 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:29:29.603 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:29:29.603 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:29:29.603 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:29:29.603 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:29:29.603 2015] :
+  Thread [] has been started.
+
+[Sat Oct 17 14:29:30.367 2015] :
+  The network logical node [IB] has been initialized.
+
+[Sat Oct 17 14:29:30.367 2015] :
+  Success to initialize the physical network node!
+
+[Sat Oct 17 14:29:32.130 2015] :
+  The network node [IB] has been started.
+
+[Sat Oct 17 14:30:05.171 2015] :
+  Success to receive data with IB node
+

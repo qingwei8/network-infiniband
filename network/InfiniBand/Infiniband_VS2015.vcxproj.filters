@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{2ed06850-2ee6-405c-b208-a044e15ed129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Node">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{7e6a68f4-7425-4ccf-97b0-84cfecb1db3a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BuildIBConnectionAckPacket.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildIBConnectionReqPacket.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="PrepareDataAckPacket.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="PrepareDataReqPacket.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="IBConfig.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="IBInterface.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="IBChannelAdapter.cpp">
+      <Filter>Node</Filter>
+    </ClCompile>
+    <ClCompile Include="IBCompletionQueue.cpp">
+      <Filter>Node</Filter>
+    </ClCompile>
+    <ClCompile Include="IBConnection.cpp">
+      <Filter>Node</Filter>
+    </ClCompile>
+    <ClCompile Include="IBNode.cpp">
+      <Filter>Node</Filter>
+    </ClCompile>
+    <ClCompile Include="IBQueuePair.cpp">
+      <Filter>Node</Filter>
+    </ClCompile>
+    <ClCompile Include="IBMemoryBlock.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="IBMemoryBlockPool.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="IBWCEHandlingThread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="IBPacket.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IBMemoryBlock.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="IBMemoryBlockPool.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="IBConfig.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IBCommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IBInterface.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="InfinibandExport.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IBChannelAdapter.h">
+      <Filter>Node</Filter>
+    </ClInclude>
+    <ClInclude Include="IBCompletionQueue.h">
+      <Filter>Node</Filter>
+    </ClInclude>
+    <ClInclude Include="IBConnection.h">
+      <Filter>Node</Filter>
+    </ClInclude>
+    <ClInclude Include="IBNode.h">
+      <Filter>Node</Filter>
+    </ClInclude>
+    <ClInclude Include="IBQueuePair.h">
+      <Filter>Node</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildIBConnectionAckPacket.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildIBConnectionReqPacket.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="PrepareDataAckPacket.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="PrepareDataReqPacket.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="IBWCEHandlingThread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="IBPacket.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

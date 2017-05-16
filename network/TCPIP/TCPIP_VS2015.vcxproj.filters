@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="TCP">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="UDP">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="TCP\Thread">
+      <UniqueIdentifier>{5a6932f5-3dee-4490-a657-fe7403f62171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UDP\Thread">
+      <UniqueIdentifier>{beb23a1a-9b51-4c3c-89b9-3eb7aeb22be7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Thread">
+      <UniqueIdentifier>{ad35aa1b-4ea3-499e-bba4-a890164b339e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IPBasedNode.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="IPPacketHeader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPIPConfig.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="UserPacketAssembler.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="UserPacketSplitter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPNode.cpp">
+      <Filter>TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPConnection.cpp">
+      <Filter>TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPNode.cpp">
+      <Filter>UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPIPInterface.cpp" />
+    <ClCompile Include="TCPDataReceivingThread.cpp">
+      <Filter>TCP\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPDataSendingThread.cpp">
+      <Filter>TCP\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPConnectionListenThread.cpp">
+      <Filter>TCP\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPConnectionMonitorThread.cpp">
+      <Filter>TCP\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPDataReceivingThread.cpp">
+      <Filter>UDP\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPDataSendingThread.cpp">
+      <Filter>UDP\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="IPBasedDataReceivingThread.cpp">
+      <Filter>Common\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="IPBasedDataSendingThread.cpp">
+      <Filter>Common\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="IPBasedPacketHandlingThread.cpp">
+      <Filter>Common\Thread</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IPBasedNode.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IPPacketHeader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPIPCommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPIPConfig.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UserPacketAssembler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UserPacketSplitter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPNode.h">
+      <Filter>TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPConnection.h">
+      <Filter>TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPCommon.h">
+      <Filter>TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPNode.h">
+      <Filter>UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPIPExport.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPIPInterface.h" />
+    <ClInclude Include="TCPDataReceivingThread.h">
+      <Filter>TCP\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPDataSendingThread.h">
+      <Filter>TCP\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPConnectionListenThread.h">
+      <Filter>TCP\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPConnectionMonitorThread.h">
+      <Filter>TCP\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPDataReceivingThread.h">
+      <Filter>UDP\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPDataSendingThread.h">
+      <Filter>UDP\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="IPBasedDataReceivingThread.h">
+      <Filter>Common\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="IPBasedDataSendingThread.h">
+      <Filter>Common\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="IPBasedPacketHandlingThread.h">
+      <Filter>Common\Thread</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

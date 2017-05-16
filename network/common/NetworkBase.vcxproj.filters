@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Network Node">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LogicalNode.cpp">
+      <Filter>Network Node</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicalNode.cpp">
+      <Filter>Network Node</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="UserPacketHandlingThread.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkConnection.cpp" />
+    <ClCompile Include="NetworkInterface.cpp" />
+    <ClCompile Include="NetworkThread.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LogicalNode.h">
+      <Filter>Network Node</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalNode.h">
+      <Filter>Network Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="UserPacketHandlingThread.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkCommon.h" />
+    <ClInclude Include="NetworkInterface.h" />
+    <ClInclude Include="NetworkThread.h" />
+    <ClInclude Include="NetworkConnection.h" />
+    <ClInclude Include="NetworkExport.h" />
+  </ItemGroup>
+</Project>

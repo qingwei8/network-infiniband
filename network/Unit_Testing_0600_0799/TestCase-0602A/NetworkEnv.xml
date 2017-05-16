@@ -1,0 +1,9 @@
+<IP>127.0.0.1</IP>
+
+<NODE>
+  TCP
+  <SOCKET>
+    TEST
+    <PORT>8000</PORT>
+  </SOCKET>
+</NODE>

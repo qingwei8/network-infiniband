@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7B2A0FDA-9632-44A5-B44D-C88BE37FDB7A}</ProjectGuid>
+    <RootNamespace>TCPIP</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>TCPIP_VS2015</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <TargetName>HiveTCPIP-vc140D</TargetName>
+    <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetName>HiveTCPIP-vc140</TargetName>
+    <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetName>HiveTCPIP-vc140</TargetName>
+    <TargetExt>.dll</TargetExt>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>HiveTCPIP-vc140D</TargetName>
+    <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Common;$(BOOST);$(HIVE_ROOT)/include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;TCPIP_EXPORTS;_WIN32_WINNT=0x0501;WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4251;4819;4275;4267;4005;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>../Debug;$(BOOST)/x86;$(HIVE_ROOT)/lib/x86</AdditionalLibraryDirectories>
+      <AdditionalDependencies>HiveThread-vc140D.lib;hiveCommon-vc140D.lib;HiveNetworkCommon-vc140D.lib;HiveConfiguration-vc140D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Common;$(BOOST);$(HIVE_ROOT)/include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;TCPIP_EXPORTS;_WIN32_WINNT=0x0501;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4251;4819;4275;4267;4005;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>../x64/Debug;$(BOOST)/x64;$(HIVE_ROOT)/lib/x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies>HiveThread-vc140D.lib;hiveCommon-vc140D.lib;HiveNetworkCommon-vc140D.lib;HiveConfiguration-vc140D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Common;$(BOOST);$(HIVE_ROOT)/include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_NDEBUG;_WINDOWS;_USRDLL;TCPIP_EXPORTS;_WIN32_WINNT=0x0501;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4251;4819;4275;4267;4005;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../Release;$(BOOST)/x86;$(HIVE_ROOT)/lib/x86</AdditionalLibraryDirectories>
+      <AdditionalDependencies>HiveThread-vc140.lib;hiveCommon-vc140.lib;HiveNetworkCommon-vc140.lib;HiveConfiguration-vc140.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Common;$(BOOST);$(HIVE_ROOT)/include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_NDEBUG;_WINDOWS;_USRDLL;TCPIP_EXPORTS;_WIN32_WINNT=0x0501;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4251;4819;4275;4267;4005;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(BOOST)/x64;../x64/Release;$(HIVE_ROOT)/lib/x64;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>HiveThread-vc140.lib;hiveCommon-vc140.lib;HiveNetworkCommon-vc140.lib;HiveConfiguration-vc140.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="IPBasedDataReceivingThread.cpp" />
+    <ClCompile Include="IPBasedDataSendingThread.cpp" />
+    <ClCompile Include="IPBasedNode.cpp" />
+    <ClCompile Include="IPBasedPacketHandlingThread.cpp" />
+    <ClCompile Include="IPPacketHeader.cpp" />
+    <ClCompile Include="TCPConnection.cpp" />
+    <ClCompile Include="TCPConnectionListenThread.cpp" />
+    <ClCompile Include="TCPConnectionMonitorThread.cpp" />
+    <ClCompile Include="TCPDataReceivingThread.cpp" />
+    <ClCompile Include="TCPDataSendingThread.cpp" />
+    <ClCompile Include="TCPIPConfig.cpp" />
+    <ClCompile Include="TCPIPInterface.cpp" />
+    <ClCompile Include="TCPNode.cpp" />
+    <ClCompile Include="UDPDataReceivingThread.cpp" />
+    <ClCompile Include="UDPDataSendingThread.cpp" />
+    <ClCompile Include="UDPNode.cpp" />
+    <ClCompile Include="UserPacketAssembler.cpp" />
+    <ClCompile Include="UserPacketSplitter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IPBasedDataReceivingThread.h" />
+    <ClInclude Include="IPBasedDataSendingThread.h" />
+    <ClInclude Include="IPBasedNode.h" />
+    <ClInclude Include="IPBasedPacketHandlingThread.h" />
+    <ClInclude Include="IPPacketHeader.h" />
+    <ClInclude Include="TCPCommon.h" />
+    <ClInclude Include="TCPConnection.h" />
+    <ClInclude Include="TCPConnectionListenThread.h" />
+    <ClInclude Include="TCPConnectionMonitorThread.h" />
+    <ClInclude Include="TCPDataReceivingThread.h" />
+    <ClInclude Include="TCPDataSendingThread.h" />
+    <ClInclude Include="TCPIPCommon.h" />
+    <ClInclude Include="TCPIPConfig.h" />
+    <ClInclude Include="TCPIPExport.h" />
+    <ClInclude Include="TCPIPInterface.h" />
+    <ClInclude Include="TCPNode.h" />
+    <ClInclude Include="UDPDataReceivingThread.h" />
+    <ClInclude Include="UDPDataSendingThread.h" />
+    <ClInclude Include="UDPNode.h" />
+    <ClInclude Include="UserPacketAssembler.h" />
+    <ClInclude Include="UserPacketSplitter.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
